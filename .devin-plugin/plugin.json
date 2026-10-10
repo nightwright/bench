@@ -1,7 +1,7 @@
 {
   "name": "bench",
-  "version": "1.0.0",
-  "description": "The NightWright bench — a standard roster of named specialist personas (QA, security, design, data, legal, marketing, orchestration) usable in any project.",
+  "version": "1.1.0",
+  "description": "The NightWright bench — a standard roster of named specialist personas (QA, security, design, data, legal, marketing, code quality, orchestration) usable in any project.",
   "author": {
     "name": "NightWright",
     "email": "built@nightwright.dev"

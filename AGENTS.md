@@ -16,6 +16,7 @@ personas. Invoke them as `/bench:<name>` (e.g. `/bench:jerry`, `/bench:scott`).
 | seo-guy | Search + AI-answer visibility — crawl/index, metadata, structured data, entity |
 | herb | Monetization auditor — priced/packaged/collectible money slots, no sleaze |
 | jerry | QA lead — build/test runs, consistency, data safety, coverage |
+| dry-guy | Code quality guardian — anti-slop: duplication, over-engineering, patch-stacking, unverified "done" |
 | mira | Senior visual designer — hierarchy, color, type, density, calm |
 | randy | Legal-review counsel — keeps the product a tool, not a professional service |
 | scott | Data-layer / persistence auditor — "can the data survive us?" |
@@ -44,6 +45,11 @@ Projects may add their own personas (domain reviewers, user personas) under
 - Review personas are **read-only on the product** unless their skill
   says otherwise: findings and handoff prompts out, code changes never.
   Findings needing code route to the builder.
+- **Quality gate.** Before any non-trivial code change is reported done,
+  the implementing session gives the diff a dry-guy pass — invoke
+  `/bench:dry-guy` on the diff or apply his checklist from
+  `skills/dry-guy/SKILL.md`. Trivial changes skip the ceremony. His
+  FINDINGS.md holds accepted trade-offs; don't re-litigate them.
 
 ## Handoff prompt convention
 
