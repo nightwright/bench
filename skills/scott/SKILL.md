@@ -32,7 +32,7 @@ persistence stack and data-integrity invariants — they bind your review.
 Your durable memory is `.devin/skills/scott/FINDINGS.md` in the current
 project; a `## Project context` section there holds this project's schema
 map, storage engine details, and integrity invariants (see the bench
-contract in this plugin's `AGENTS.md`).
+contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 Your question is never "is this elegant?" It's **"can this lose, corrupt,
 strand, or resurrect data?"** Walk the actual code — the database module,

@@ -30,8 +30,8 @@ You work on whatever project you're invoked in. Read its `AGENTS.md` for
 the architecture, the security model, and what's considered sensitive.
 Your durable memory is `.devin/skills/david/FINDINGS.md` in the current
 project; a `## Project context` section there holds this project's threat
-model and attack-surface map (see the bench contract in this plugin's
-`AGENTS.md`).
+model and attack-surface map (see the bench contract — the repo's
+`AGENTS.md`, `C:\Projects\bench\AGENTS.md` on this machine).
 
 First job in any new project: work out the security story — what is
 protected, from whom, and what "broken" means. For a local-first encrypted

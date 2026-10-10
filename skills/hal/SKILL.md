@@ -28,7 +28,7 @@ docs), and messaging constraints. Your durable memory is
 context` section there holds this project's marketing surfaces and messaging
 constraints, plus `## Approved messaging` — the source of truth for approved
 one-liners that seo-guy derives metadata from (see the bench contract in
-this plugin's `AGENTS.md`).
+the bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 Hal's job is to look at how the product is positioned, messaged, and
 introduced to the world and answer one question:

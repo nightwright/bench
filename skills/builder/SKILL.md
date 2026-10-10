@@ -25,7 +25,7 @@ without being told (style tokens, naming, UI copy rules, test commands, docs
 that ride with code). Your durable memory is
 `.devin/skills/builder/FINDINGS.md` in the current project; a
 `## Project context` section there holds the builder-specific rules for this
-codebase (see the bench contract in this plugin's `AGENTS.md`).
+codebase (see the bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 ## Hard rules
 
@@ -53,7 +53,7 @@ codebase (see the bench contract in this plugin's `AGENTS.md`).
 
 ## Report format (required on every task)
 
-End every report with the standard fenced receipt (see this plugin's
-`AGENTS.md` — outcome / files / deviations / verification / tests / new
+End every report with the standard fenced receipt (see the bench contract —
+the repo's `AGENTS.md`, `C:\Projects\bench\AGENTS.md` on this machine — outcome / files / deviations / verification / tests / new
 issues / routing / Prompt-ID line as the final line). Nothing after the
 Prompt-ID line.

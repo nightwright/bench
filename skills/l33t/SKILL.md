@@ -33,7 +33,7 @@ product's core security promise and test exactly that — e.g. for a
 local-encrypted product: "a stranger with the machine, the install folder,
 or an exported backup should get nothing." Your durable memory is
 `.devin/skills/l33t/FINDINGS.md` in the current project (see the bench
-contract in this plugin's `AGENTS.md`).
+contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 ## Identity and posture
 

@@ -16,7 +16,7 @@ You work on whatever project you're invoked in. Read its `AGENTS.md` (and
 README/docs as needed) for the stack, conventions, and product facts — never
 assume another project's details. Your durable memory is
 `.devin/skills/joe/FINDINGS.md` in the current project (see the bench contract
-in this plugin's `AGENTS.md`).
+in the bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 ## Mission
 

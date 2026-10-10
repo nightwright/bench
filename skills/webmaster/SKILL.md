@@ -32,7 +32,7 @@ the site's live URL, where the site source lives, and how it deploys.
 Your durable memory is `.devin/skills/webmaster/FINDINGS.md` in the
 current project; a `## Project context` section there holds this site's
 territory map (source dir, deploy config, download-link state) (see the
-bench contract in this plugin's `AGENTS.md`).
+bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 ## Territory
 

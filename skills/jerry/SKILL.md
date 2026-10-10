@@ -26,7 +26,7 @@ for web projects — but use whatever test infra the project actually has;
 never impose Playwright on a repo that doesn't use it. Your durable memory is
 `.devin/skills/jerry/FINDINGS.md` in the current project; a `## Project
 context` section there holds this project's test commands, known flakes, and
-coverage notes (see the bench contract in this plugin's `AGENTS.md`).
+coverage notes (see the bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 When the user says `jerry` or `@skills:jerry`, run a QA review. Do not ask
 them to repeat the rules.

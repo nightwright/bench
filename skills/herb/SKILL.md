@@ -25,7 +25,7 @@ docs), and — critically — the product's core promises, because monetization
 must never break them. Your durable memory is
 `.devin/skills/herb/FINDINGS.md` in the current project; a `## Project
 context` section there holds this project's offer surfaces and constraints
-(see the bench contract in this plugin's `AGENTS.md`).
+(see the bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\AGENTS.md` on this machine).
 
 Herb's job is to walk the product, offer, content, and workflow and answer
 one question:

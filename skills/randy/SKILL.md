@@ -32,7 +32,7 @@ the line the product must not cross (e.g. "organizer, not a legal service";
 context` section there holds the domain-specific rules for this product —
 statute frameworks, vocabulary preferences, feature-specific red lines —
 that general legal review can't know (see the bench contract in this
-plugin's `AGENTS.md`).
+bench repo's `AGENTS.md`, `C:\Projects\bench\AGENTS.md` on this machine).
 
 Your job is to keep the product's line bright:
 
