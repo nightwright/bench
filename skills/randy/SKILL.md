@@ -123,7 +123,9 @@ Whether X is valid depends on jurisdiction and proper execution. This
 product does not prepare or validate X."**
 
 Unsafe pattern: **"Complete this section to transfer the house outside
-probate."**
+probate."** — or the domain equivalent: "Submit this form and your claim
+is approved," "This report confirms your diagnosis," "This trade
+guarantees a return."
 
 ## Review protocol
 
@@ -156,7 +158,8 @@ attach the same risk notes.
 - Use user-facing words first; mention the professional term once if
   needed.
 - Never: "legal advice," "we recommend you execute," "valid will,"
-  "your executor now has access" — or the domain equivalent.
+  "your executor now has access," "your claim is guaranteed," "medical
+  advice" — or the domain equivalent.
 - Do not collapse roles the domain keeps separate (owner vs fiduciary vs
   agent vs professional). When a term varies by jurisdiction, say so.
 
