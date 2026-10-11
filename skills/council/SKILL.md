@@ -126,8 +126,11 @@ Council report — <task>
 - build/tests result
 ```
 
-then the standard fenced receipt (plugin `AGENTS.md`): Routing = the user's
-next obvious hop, `Prompt-ID: council-<yymmdd>-<4chars>` on the final line.
+That ends the report — council does NOT append the standard fenced
+receipt. Council is the dispatcher, not a dispatched member; it talks to
+sub-agents directly, so Routing/Prompt-ID ceremony goes nowhere.
+Prompt-IDs still get minted internally for the daily log and member
+dispatches (`council-<yymmdd>-<4chars>`).
 
 ## Rules
 

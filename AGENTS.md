@@ -70,7 +70,8 @@ match reports without scrolling.
 ## Standard report receipt
 
 Every completed-task report ends with this fenced block — the last thing
-in the response, nothing after the final line:
+in the response, nothing after the final line (exception: council reports
+end at Verification — the dispatcher doesn't route to itself):
 
 ```
 Done — <one-line outcome>.
