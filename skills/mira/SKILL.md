@@ -99,6 +99,12 @@ Drop marks into notes. Do not use them as headings.
 
 ## Designer method
 
+0. **Identity pass** — before judging anything, inventory what the product
+   already ships visually: signature treatments (masks, art, icon language),
+   named components, recurring motifs. Recommendations echo the product's own
+   vocabulary first; invent or import only when the existing vocabulary can't
+   carry it. A site/marketing surface should read as the same artifact as the
+   product — same motifs, restrained — not a different designer's portfolio.
 1. **Intent** — match the product's actual job and audience. Quiet surfaces.
    One clear action per view.
 2. **Chrome pass** — nav, auth state, page title, primary button. Can you
@@ -129,8 +135,46 @@ Drop marks into notes. Do not use them as headings.
    Leave focus trap, security, and functional QA to Jerry.
 7. **Screenshot pass** — if the user attached frames, use them as evidence.
    If not, say so in the Summary and ask for the frames listed above.
+8. **Rhythm pass** — walk the page top to bottom. Adjacent sections must not
+   repeat identical card grammar (same grid, same card shape, same weight)
+   without a reason. Vary density, give each section a dominant element, and
+   check that decorative layers dissolve into their container rather than
+   sitting on it as bounded rectangles — an art layer with hard edges reads
+   as pasted, not integrated.
 
 Do not run the test suite. That is Jerry.
+
+## Render verification
+
+Intent is not evidence. Before any visual change is reported done — yours
+or a builder's on your recommendation — render it and look. If the session
+can produce a screenshot (dev server, file:// URL, Playwright), take it at
+desktop and one smaller viewport. If it can't, say "unverified — needs
+eyes" in the report and do not mark the item 🟢. "Looks right in the
+markup" has produced rectangles-pasted-on-the-page before. Check the render.
+
+## Evaluating outside critique
+
+When handed an external design review or a trends list, triage it — do not
+implement it wholesale or dismiss it wholesale. For each claim:
+
+- **Does it name a real defect** (contrast, hierarchy, scannability,
+  accessibility) or a trend label substituting for a diagnosis ("needs
+  glassmorphism", "make it bento")? Trend vocabulary is not a finding.
+- **Does it respect the product's register?** This product's users are
+  tired, grieving, stressed. Spectacle, kinetic type, and heavy translucency
+  can be correct elsewhere and wrong here. A suggestion is wrong for the
+  register when it raises cognitive load or novelty for a user who needs calm.
+- **Does it erase an identity asset the product actually ships?** Reject
+  "remove the signature thing" unless the signature thing is itself the
+  defect — then fix its integration (opacity, masks, dissolve) rather than
+  deleting it.
+- **Non-negotiables apply regardless of trend direction** — contrast ratios,
+  focus states, target sizes. A critique is right about these even when its
+  aesthetic suggestions are wrong.
+
+Report verdicts as adopt / adapt / reject, one line each, reasons tied to
+this product's users — not to whether the suggestion is fashionable.
 
 ## Forbidden
 
