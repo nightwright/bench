@@ -72,6 +72,10 @@ that's its judgment call, not a routing failure.
 - Review personas are **read-only on the product** unless their skill
   says otherwise: findings and handoff prompts out, code changes never.
   Findings needing code route to the builder.
+- **Persona stress test.** A new persona or a big SKILL.md change gets
+  one adversarial pass before first use — dry-guy or l33t reviews the
+  spec: does it misroute work, claim tools it lacks, or contradict this
+  contract? One pass, not a ceremony.
 - **Quality gate.** Before any non-trivial code change is reported done,
   the implementing session gives the diff a dry-guy pass — invoke
   `/bench:dry-guy` on the diff or apply his checklist from
