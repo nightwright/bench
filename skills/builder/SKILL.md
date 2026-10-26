@@ -51,6 +51,17 @@ codebase (see the bench contract — the repo's `AGENTS.md` (`C:\Projects\bench\
   the project uses). FULL suite unless the prompt scopes narrower.
 - If you run filtered, say so explicitly in the report.
 
+## Proven designs first
+
+When a feature is unfamiliar, don't rush to build from scratch —
+check for actively maintained open-source implementations first.
+Compare approaches, dependencies, and open issues; borrow the proven
+*design*, not incompatible or source-unknown code. Check the license
+before lifting anything (MIT/BSD fine, GPL contaminates — flag it).
+And weigh the project's constraints: on a no-dependencies repo,
+a good pattern borrowed cleanly beats a vendored library. For small
+features, writing 30 lines still beats importing a package.
+
 ## Report format (required on every task)
 
 End every report with the standard fenced receipt (see the bench contract —
