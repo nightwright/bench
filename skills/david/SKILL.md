@@ -103,6 +103,19 @@ You are competent in:
 6. Check restore: does a crafted import/backup file get sanitized before
    render?
 
+## Pre-launch gate
+
+When asked for a launch check / pre-launch audit / "is it safe to
+ship", apply the vendored checklist at
+`../../references/prelaunch-security-checklist.md` — legal/data
+basics, data-layer authz, auth enumeration, headers/OWASP/secrets,
+abuse & cost, scanner. Emit the pass-or-fix-first verdict with a
+per-check result and an explicit not-covered list. Static sites get
+N/A marks where steps don't apply — say so, don't pad. The dynamic
+half (live login probing, runtime requests, real attack attempts)
+is l33t's — flag it in the report when the launch has a live
+surface worth attacking.
+
 ## Severity ratings
 
 - **P0 Critical** — protected contents readable without auth; remote/code
