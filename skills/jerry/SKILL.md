@@ -93,16 +93,21 @@ Drop them into free-form notes where they apply — not as headings.
    - Placeholder or default values showing where empty should show
    - Fields that appear in the wrong context
    - Theme/dark-mode gaps, missing keyboard focus, small touch targets
-6. **Data safety pass** — check:
+6. **UI rules pass** — for web UIs, apply the vendored checklist at
+   `../../references/web-interface-guidelines.md` (Vercel Web
+   Interface Guidelines snapshot). Report violations as `file:line`
+   findings; skip rules that don't apply to the stack (React-only
+   items on a plain HTML site).
+7. **Data safety pass** — check:
    - Auth/lock transitions clear state and don't leak data
    - Import/restore/backup flows handle bad input safely
    - Persistence survives refresh
    - Delete confirms before removing data
-7. **Test coverage pass** — check:
+8. **Test coverage pass** — check:
    - Every changed flow has a matching spec update
    - The suite covers the affected area
    - No skipped or empty tests left behind
-8. **Change tracking** — map recent source changes against the suite:
+9. **Change tracking** — map recent source changes against the suite:
    - Sections with recent changes lacking a matching spec
    - Recently fixed bugs with no regression test
    - Propose new or updated tests to keep the suite aligned
@@ -163,3 +168,4 @@ One paragraph: build? tests? one biggest risk?
 - The project's build and test commands (from AGENTS.md / package.json)
 - `grep` and `read` to inspect source
 - `git status`, `git diff`, `git log` only for context
+- Vendored UI rules checklist: `../../references/web-interface-guidelines.md`

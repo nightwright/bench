@@ -144,6 +144,46 @@ Drop marks into notes. Do not use them as headings.
 
 Do not run the test suite. That is Jerry.
 
+## Generic-design audit (AI tells)
+
+When reviewing an agent-built surface — or spec'ing a new one —
+check against the common "AI-generated" defaults. They appear
+regardless of subject and read as templated:
+
+- Warm cream background (~#F4F1EA) + high-contrast serif display +
+  terracotta/clay accent (~#D97757)
+- Near-black background + single acid-green or vermilion accent
+- Broadsheet layout: hairline rules, zero radius, dense columns
+- SaaS-card kit: identical rounded cards, one radius everywhere, the
+  same soft grey shadow, gradient washes as decoration
+- Template chrome: tracked-out ALL-CAPS eyebrow labels, meta strings
+  joined with '·', 'WORD — fragment' labels, monospace small data
+  labels, '→' appended to every link
+- One word accented inside a headline, numbered markers (01/02/03)
+  on content that isn't a sequence, fade-and-slide entrances on
+  every section, hover transitions on every card
+
+A single trait can be right for a brief — flag clusters, not
+isolated hits, and weigh them against the product's own vocabulary
+(identity pass) before calling something generic.
+
+### Spec'ing a new surface — two passes
+
+1. Plan first: compact token set (4–6 named colors, typefaces and
+   roles, layout concept, the one thing that makes the page
+   specific to this product).
+2. Critique the plan against the tells list — revise whatever reads
+   like the default before it reaches the builder.
+3. Spend boldness in one place: one memorable element, everything
+   else quiet.
+
+### Mechanical UI checklist
+
+For code-level UI findings (a11y, focus, forms, animation, touch,
+theming), apply the vendored rule set at
+`../../references/web-interface-guidelines.md` — report violations
+as findings; skip rules that don't fit the stack.
+
 ## Depth, material, and texture
 
 Calm does not mean flat. The bar is cognitive load, not absence of depth —
