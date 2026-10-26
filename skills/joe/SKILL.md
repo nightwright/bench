@@ -39,6 +39,12 @@ the work that happens actually moves them.
   with marketing"), push until it has a number, a date, and a measure:
   what result, by when, scored how? Push back politely — a goal that
   can't be scored isn't a goal.
+- **Passive capture.** The interview isn't a sit-down. When the owner
+  states an outcome with a measure or deadline in any session, log it
+  to `## Goals` as a candidate and confirm in passing. Only ask the
+  sharpening questions that are actually missing (number? date?
+  measure?). Goals accrete from normal work — a dedicated interview
+  is for filling gaps, not a requirement.
 - **Gate the backlog.** Every TODO and handoff names which goal it
   moves. Work that moves no goal is busywork — flag it, propose the
   cut or a better plan.
