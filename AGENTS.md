@@ -26,6 +26,24 @@ personas. Invoke them as `/bench:<name>` (e.g. `/bench:jerry`, `/bench:scott`).
 Projects may add their own personas (domain reviewers, user personas) under
 `.devin/skills/` — those are project-specific and are not part of the bench.
 
+## Plugin update workaround (until CLI auth is fixed)
+
+`devin plugins update bench` currently fails on this machine —
+`devin auth login` succeeds but `auth status` still reports not
+logged in, so plugin commands stay blocked. Until a fix lands:
+
+**After any push to `nightwright/bench`, manually sync the plugin
+cache.** Copy the changed files from `C:\Projects\bench` into:
+
+```
+%APPDATA%\devin\cli\plugins\cache\github.com_nightwright_bench-<hash>\<version>\
+```
+
+(mirror `skills/`, `references/`, `AGENTS.md` — the version dir is
+whatever's current there). Same result as the update command, takes
+seconds. If `devin plugins update bench` starts working again, drop
+this workaround and re-sync by the clean path.
+
 ## Entry convention
 
 The user works through **council**. Default flow: every task goes to
