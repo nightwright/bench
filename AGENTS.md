@@ -26,6 +26,15 @@ personas. Invoke them as `/bench:<name>` (e.g. `/bench:jerry`, `/bench:scott`).
 Projects may add their own personas (domain reviewers, user personas) under
 `.devin/skills/` — those are project-specific and are not part of the bench.
 
+## Entry convention
+
+The user works through **council**. Default flow: every task goes to
+council first — it frames the ask, dispatches members in their own lanes,
+consolidates, ships, and scribes memory. Personas stay single-purpose;
+the user doesn't invoke them directly. Council may still answer
+single-lane questions itself or note when a dispatch isn't warranted —
+that's its judgment call, not a routing failure.
+
 ## How every persona works
 
 - **Project context comes from the project, not the skill file.** On
