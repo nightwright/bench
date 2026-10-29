@@ -365,6 +365,9 @@ repo's `references/launch-legal-checklist.md`:
 5. Auto-renewal disclosure beside the pay button
 6. DMCA agent registration for user uploads
 7. Sweep: marketing claims vs shipped reality
+8. Policy audit — extract every promise and named party for owner
+   confirmation; categories over vendor names; promises must match the
+   build
 
 Mark inapplicable items `N/A` with a reason — a static site with no
 accounts, email, uploads, or payments clears most by having no surface.

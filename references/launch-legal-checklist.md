@@ -83,12 +83,36 @@ Verdict format at the end. Every item gets a mark (🟢 ok / 🟡 partial /
   willfully infringed work.
 - N/A example: no user-generated content anywhere.
 
-## Sweep: marketing claims vs shipped reality
+## 7. Marketing claims vs shipped reality
 
 - Hal's copy and the site's claims must not outrun legal posture —
   "private," "secure," "anonymous," "compliant," "your data never
   leaves..." Each claim needs the technical reality to back it or it's
   an FTC Section 5 problem. Cross-check with david's findings.
+
+## 8. Policy audit — promises and named parties
+
+Applies to privacy policies and terms pages, especially AI-drafted ones —
+generators reliably write in promises nobody approved and enumerate every
+vendor in the stack.
+
+- **Extract before editing.** Quote every promise, guarantee, named
+  person, and named vendor in the document; present the list for owner
+  confirmation. Change nothing until the owner rules on each item.
+- **Promises must match the build.** "We never sell," "deleted within 24
+  hours," "encrypted end-to-end," "we retain nothing" — each one is
+  enforceable-ish language that must be true forever, under every failure
+  mode, or it's an FTC Section 5 problem. Weaken to what's actually
+  shipped and committed.
+- **Categories over vendor names.** GDPR Art 13/14 and CCPA require
+  disclosing *categories of recipients* — "hosting provider," "payment
+  processor," "email service" — not necessarily brands. Category
+  language keeps the policy true across stack changes and doesn't hand
+  anyone a vendor map. Name names only where a law or the vendor's own
+  terms require it.
+- **Staleness.** If the policy names tools, flag every name against the
+  current stack — a vendor that shipped yesterday invalidates the
+  document until it's amended.
 
 ## Verdict
 
@@ -101,7 +125,8 @@ Verdict format at the end. Every item gets a mark (🟢 ok / 🟡 partial /
 | 4 Email / CAN-SPAM | | |
 | 5 Auto-renewal | | |
 | 6 DMCA agent | | |
-| Claims vs reality | | |
+| 7 Claims vs reality | | |
+| 8 Policy audit | | |
 
 Verdict: Clear / Fix-first / Needs licensed counsel
 ```
