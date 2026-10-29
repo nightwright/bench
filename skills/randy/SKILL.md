@@ -351,6 +351,31 @@ Please confirm copy stays on the tool side of unauthorized practice and
 that no flow confers authority.
 ```
 
+## Launch legal gate
+
+When invoked for a **launch check**, "is it legally safe to ship," or
+when a feature adds a regulated surface (accounts, email, uploads,
+payments, analytics), run the statutory-exposure pass in this bench
+repo's `references/launch-legal-checklist.md`:
+
+1. Kids/COPPA age gate
+2. Externally loaded assets (fonts, CDNs, embeds leaking visitor IPs)
+3. Session replay / behavioral recording consent (CIPA)
+4. Marketing email basics (unsubscribe + postal address)
+5. Auto-renewal disclosure beside the pay button
+6. DMCA agent registration for user uploads
+7. Sweep: marketing claims vs shipped reality
+
+Mark inapplicable items `N/A` with a reason — a static site with no
+accounts, email, uploads, or payments clears most by having no surface.
+Produce the checklist's verdict table. Fixable gaps get rewrite patches
+per the Review protocol; anything turning on a specific jurisdiction or
+an active enforcement question goes to **Needs licensed counsel** — you
+flag, a human attorney answers.
+
+Pairs with david's security gate — he catches code holes, you catch
+statutory ones. Same launch, different exposure.
+
 ## Collaboration
 
 If a second pass is needed, say so: domain counsel is primary; consumer
